@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+		<title>Опрос</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="form">
+				<div id="form" class="form__body">
+					<h1 class="form__title">Социальный опрос</h1>
+					<div class="form__owner">Серафим</div>
+					<div class="form__type">Публичный опрос</div>
+					<div onclick="handleChoice(0)" class="form__item">
+						<div class="progres-bar"></div>
+						Интроверт 
+						<span class="vote-count"></span>
+						<span class="count-percent"></span>
+					</div>
+					<div onclick="handleChoice(1)" class="form__item">
+						<div class="progres-bar"></div>
+						Экстраверт 
+						<span class="vote-count"></span>
+						<span class="count-percent"></span>
+					</div>
+					<div onclick="handleChoice(2)" class="form__item">
+						<div class="progres-bar"></div>
+						Не знаю 
+						<span class="vote-count"></span>
+						<span class="count-percent"></span>
+					</div>
+
+					<div class="form__show-result">проголосовало </div>
+				</div>
+			</div>
+		</div>
+
+
+		<script src="sript.js" type="text/javascript"></script>
+	</body>
+</html>
